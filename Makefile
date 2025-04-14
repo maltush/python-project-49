@@ -1,11 +1,11 @@
 .PHONY: 
-	install brain-games build package-install
+	install brain_games build package-install
     
 install:
 	uv sync
 
-brain-games:
-	uv run brain-games
+brain_games:
+	uv run brain_games
 
 build:
 	uv build
