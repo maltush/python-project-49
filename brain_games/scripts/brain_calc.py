@@ -25,7 +25,7 @@ def main():
         user_answer = input('Your answer: ') 
         correct_answer = calculate_answer(expression)
 
-        if int(user_answer) != correct_answer:
+        if str(user_answer) != str(correct_answer):
             print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.")
             print(f"Let's try again, {name}!")
             return  
@@ -33,7 +33,7 @@ def main():
         print("Correct!")
         score += 1
 
-    print(f"Congratulations, {name}! Your score: {score}")
+    print(f"Congratulations, {name}!")
 
 if __name__ == "__main__":
     main()
