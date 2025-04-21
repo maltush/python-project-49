@@ -16,4 +16,8 @@
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=maltush_python-project-49&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=maltush_python-project-49)
 [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=maltush_python-project-49&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=maltush_python-project-49)
 
-[My asciinema](https://asciinema.org/a/IFz5yYVL1OiVqAqXJZq97nOC6)
+# game_even
+[![asciicast](https://asciinema.org/a/IFz5yYVL1OiVqAqXJZq97nOC6.svg)](https://asciinema.org/a/IFz5yYVL1OiVqAqXJZq97nOC6)
+
+# game_calc
+[![asciicast](https://asciinema.org/a/Xp94E8huBH7MqW1VPSzg9gyhI.svg)](https://asciinema.org/a/Xp94E8huBH7MqW1VPSzg9gyhI)
