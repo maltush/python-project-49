@@ -15,7 +15,7 @@ def play_game():
         print(f"Question: {num1} {num2}")
         user_answer = input('Your answer: ')
 
-        if int(user_answer) != correct_answer:
+        if str(user_answer) != str(correct_answer):
             return False, correct_answer
         
         print("Correct!")
