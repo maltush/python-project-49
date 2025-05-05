@@ -1,6 +1,8 @@
 import random
 
 
+# Генерация выражения
+# Возвращает два целых случайных числа, соединенных знаком +, -, *
 def generate_expression():
     num1 = random.randint(1, 100)
     num2 = random.randint(1, 100)
