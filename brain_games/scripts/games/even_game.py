@@ -1,7 +1,9 @@
 import random
 
+
 def is_even(number):
     return number % 2 == 0
+
 
 def play_game():
     print('Answer "yes" if the number is even, otherwise answer "no".')
@@ -18,4 +20,4 @@ def play_game():
         
         print("Correct!")
 
-    return True, None  
+    return True, None 

@@ -1,16 +1,19 @@
 import random
 
+
 def generate_progression(length=10):
     start = random.randint(1, 10)
     step = random.randint(1, 5)
     progression = [start + step * i for i in range(length)]
     return progression
 
+
 def hide_number(progression):
     hidden_index = random.randint(0, len(progression) - 1)
     hidden_number = progression[hidden_index]
     progression[hidden_index] = '..'
     return progression, hidden_number
+
 
 def play_game():
     print("What number is missing in the progression?")

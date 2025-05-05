@@ -1,7 +1,9 @@
 import random
 
+
 def is_even(number):
     return number % 2 == 0
+
 
 def main():
     print("Welcome to the Brain Games!")
@@ -20,14 +22,18 @@ def main():
         user_answer = input('Your answer: ').strip().lower()
 
         if user_answer != correct_answer:
-            print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.")
+            print(
+            f"'{user_answer}' is wrong answer ;(. ",
+            f"Correct answer was '{correct_answer}'."
+            )
             print(f"Let's try again, {name}!")
-            return  
+            return 
         
         print("Correct!")
         score += 1
 
     print(f"Congratulations, {name}!")
+
 
 if __name__ == "__main__":
     main()

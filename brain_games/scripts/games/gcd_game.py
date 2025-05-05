@@ -1,8 +1,10 @@
-import random
 import math
+import random
+
 
 def find_gcd(a, b):
     return math.gcd(a, b)
+
 
 def play_game():
     print('Find the greatest common divisor of given numbers.')

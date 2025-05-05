@@ -27,18 +27,26 @@
 ### аскинемы
 
 # brain_even
-[My asciinema](https://asciinema.org/a/IFz5yYVL1OiVqAqXJZq97nOC6)
+
+[![asciicast](https://asciinema.org/a/SDtU6GyirW69JxpDqOrd3ARjv.svg)](https://asciinema.org/a/SDtU6GyirW69JxpDqOrd3ARjv)
 
 # game_calc
-[![asciicast](https://asciinema.org/a/Xp94E8huBH7MqW1VPSzg9gyhI.svg)](https://asciinema.org/a/Xp94E8huBH7MqW1VPSzg9gyhI)
+
+[![asciicast](https://asciinema.org/a/9gQwgXZ28cVZb5zJh7K1GhMBD.svg)](https://asciinema.org/a/9gQwgXZ28cVZb5zJh7K1GhMBD)
+
 
 # game_cgd
-[![asciicast](https://asciinema.org/a/OmYXmxReSzeT6D8NrjS8WIgPn.svg)](https://asciinema.org/a/OmYXmxReSzeT6D8NrjS8WIgPn)
+
+[![asciicast](https://asciinema.org/a/C8aHUKHL7tEkSc2srCl2Ogw5J.svg)](https://asciinema.org/a/C8aHUKHL7tEkSc2srCl2Ogw5J)
 
 # game_prime
 
+[![asciicast](https://asciinema.org/a/Z2NkyzW2W1FSFCCU3aXkZQqiX.svg)](https://asciinema.org/a/Z2NkyzW2W1FSFCCU3aXkZQqiX)
+
 
 # game_progression
+
+[![asciicast](https://asciinema.org/a/yYwzyo2BOMzGyWxlH4pYjxdtu.svg)](https://asciinema.org/a/yYwzyo2BOMzGyWxlH4pYjxdtu)
 
 
 

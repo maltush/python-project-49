@@ -1,5 +1,6 @@
 import random
 
+
 def is_prime(number):
     if number <= 1:
         return False
@@ -7,6 +8,7 @@ def is_prime(number):
         if number % i == 0:
             return False
     return True
+
 
 def play_game():
     print('Answer "yes" if given number is prime. Otherwise answer "no".')

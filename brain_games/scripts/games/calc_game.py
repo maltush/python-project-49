@@ -1,5 +1,6 @@
 import random
 
+
 def generate_expression():
     num1 = random.randint(1, 100)
     num2 = random.randint(1, 100)
@@ -7,8 +8,10 @@ def generate_expression():
     expression = f"{num1} {operation} {num2}"
     return expression
 
+
 def calculate_answer(expression):
     return eval(expression)
+
 
 def play_game():
     print('What is the result of the expression?')
@@ -25,4 +28,4 @@ def play_game():
         
         print("Correct!")
 
-    return True, None  
+    return True, None 
