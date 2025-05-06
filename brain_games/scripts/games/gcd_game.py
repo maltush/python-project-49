@@ -2,10 +2,12 @@ import math
 import random
 
 
+# Вычисляет НОД 
 def find_gcd(a, b):
     return math.gcd(a, b)
 
 
+# Игровое взаимодействие. Добываем два рандомных числа, спрашиваем, сравниваем ответ с правильным
 def play_game():
     print('Find the greatest common divisor of given numbers.')
 

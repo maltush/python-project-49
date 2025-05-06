@@ -4,22 +4,22 @@
 install:
 	uv sync
 
-brain_games:
+brain-games:
 	uv run brain_games
 
-brain_even:
+brain-even:
 	uv run run_even
 
-brain_calc:
+brain-calc:
 	uv run run_calc
 
-brain_gcd:
+brain-gcd:
 	uv run run_gcd
 
-brain_prime:
+brain-prime:
 	uv run run_prime
 
-brain_progression:
+brain-progression:
 	uv run run_progression
 
 build:

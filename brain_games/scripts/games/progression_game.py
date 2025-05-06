@@ -1,6 +1,7 @@
 import random
 
 
+# Создает прогрессию 
 def generate_progression(length=10):
     start = random.randint(1, 10)
     step = random.randint(1, 5)
@@ -8,6 +9,7 @@ def generate_progression(length=10):
     return progression
 
 
+# Заменяет символ на две точки
 def hide_number(progression):
     hidden_index = random.randint(0, len(progression) - 1)
     hidden_number = progression[hidden_index]
@@ -15,6 +17,7 @@ def hide_number(progression):
     return progression, hidden_number
 
 
+# Игровое взаимодействие. Создаем прогрессию со спрятанным элементом, спрашиваем, сравниваем ответ с правильным
 def play_game():
     print("What number is missing in the progression?")
 
