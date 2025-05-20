@@ -11,10 +11,12 @@ def generate_expression():
     return expression
 
 
+# Вычисление выражения
 def calculate_answer(expression):
     return eval(expression)
 
 
+# Игровое взаимодействие. Спрашиваем, сравниваем ответ с правильным
 def play_game():
     print('What is the result of the expression?')
 
