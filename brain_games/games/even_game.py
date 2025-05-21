@@ -16,7 +16,7 @@ def play_game():
         number = random.randint(1, 100)
         correct_answer = 'yes' if is_even(number) else 'no'
         
-        print(f"Question: {number}")
+        print(f'Question: {number}')
         user_answer = input('Your answer: ').strip().lower()
 
         if user_answer != correct_answer:
