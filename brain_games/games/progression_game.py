@@ -17,7 +17,9 @@ def hide_number(progression):
     return progression, hidden_number
 
 
-# Игровое взаимодействие. Создаем прогрессию со спрятанным элементом, спрашиваем, сравниваем ответ с правильным
+# Игровое взаимодействие. Создаем прогрессию со спрятанным элементом, 
+# спрашиваем, 
+# сравниваем ответ с правильным
 def play_game():
     print("What number is missing in the progression?")
 

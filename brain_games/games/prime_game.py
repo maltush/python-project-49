@@ -10,7 +10,9 @@ def is_prime(number):
             return False
     return True
 
-# Игровое взаимодействие. Добывваем рандомное число, спрашиваем, сравниваем ответ с правильным
+
+# Игровое взаимодействие. Добывваем рандомное число, спрашиваем, 
+# вниваем ответ с правильным
 def play_game():
     print('Answer "yes" if given number is prime. Otherwise answer "no".')
 

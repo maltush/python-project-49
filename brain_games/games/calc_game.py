@@ -2,7 +2,8 @@ import random
 
 
 # Генерация выражения
-# Возвращает два целых случайных числа, соединенных знаком +, -, *
+# Возвращает два целых случайных числа,
+#  соединенных знаком +, -, *
 def generate_expression():
     num1 = random.randint(1, 100)
     num2 = random.randint(1, 100)
@@ -16,7 +17,8 @@ def calculate_answer(expression):
     return eval(expression)
 
 
-# Игровое взаимодействие. Спрашиваем, сравниваем ответ с правильным
+# Игровое взаимодействие. 
+# Спрашиваем, сравниваем ответ с правильным
 def play_game():
     print('What is the result of the expression?')
 
