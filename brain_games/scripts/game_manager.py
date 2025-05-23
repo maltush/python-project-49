@@ -1,8 +1,6 @@
-class GameManager:
-    def __init__(self):
-        self.max_rounds = 3
+max_rounds = 3
 
-    def start_game(self, play_game):
+def start_game(play_game):
         name = input("May I have your name? ")
         print(f"Hello, {name}!")
 
