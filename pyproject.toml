@@ -21,9 +21,9 @@ dev = [
 ]
 
 [project.scripts]
-brain_games = "brain_games.scripts.brain_games:main"
-brain_even = "brain_games.scripts.run_even:main"
-brain_calc = "brain_games.scripts.run_calc:main"
-brain_gcd = "brain_games.scripts.run_gcd:main"
-brain_progression = "brain_games.scripts.run_progression:main"
-brain_prime = "brain_games.scripts.run_prime:main"
+brain_games = "run_games:main"
+brain_even = "run_even:main"
+brain_calc = "run_calc:main"
+brain_gcd = "run_gcd:main"
+brain_progression = "run_progression:main"
+brain_prime = "run_prime:main"
